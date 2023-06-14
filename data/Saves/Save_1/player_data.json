@@ -1,0 +1,15 @@
+{
+    "attacks": [],
+    "current_hp": 100,
+    "current_mana": 100,
+    "current_xp": 0,
+    "equipped_items": {},
+    "inventory": {},
+    "level": 1,
+    "magics": [],
+    "max_hp": 100,
+    "max_mana": 100,
+    "max_xp": 100,
+    "name": "Bob",
+    "statistics": {}
+}

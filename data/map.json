@@ -1,0 +1,557 @@
+{
+  "START" : {
+    "name": "A good start",
+    "id": "START",
+    "links": {
+      "Left": null,
+      "Top": "AR01",
+      "Right": "M01",
+      "Bottom": "M02"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+    "BOSS" : {
+    "name": "Harder",
+    "id": "BOSS",
+    "links": {
+      "Left": "M10",
+      "Top": "AR06",
+      "Right": "END",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+    "END" : {
+    "name": "A fitting end",
+    "id": "END",
+    "links": {
+      "Left": "BOSS",
+      "Top": null,
+      "Right": null,
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "AR01" : {
+    "name": "Better than nothing",
+    "id": "AR01",
+    "links": {
+      "Left": null,
+      "Top": null,
+      "Right": null,
+      "Bottom": "START"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "AR02" : {
+    "name": "Gearing up",
+    "id": "AR02",
+    "links": {
+      "Left": null,
+      "Top": null,
+      "Right": "E02",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "AR03" : {
+    "name": "Struggling yet ?",
+    "id": "AR03",
+    "links": {
+      "Left": null,
+      "Top": null,
+      "Right": null,
+      "Bottom": "M07"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "AR04" : {
+    "name": "Gearing up some more",
+    "id": "AR04",
+    "links": {
+      "Left": "L05",
+      "Top": null,
+      "Right": null,
+      "Bottom": "E06"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "AR05" : {
+    "name": "It's gonna be hard",
+    "id": "AR05",
+    "links": {
+      "Left": "E09",
+      "Top": null,
+      "Right": null,
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "AR06" : {
+    "name": "You won't manage",
+    "id": "AR06",
+    "links": {
+      "Left": "M10",
+      "Top": null,
+      "Right": "END",
+      "Bottom": "BOSS"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M01" : {
+    "name": "It's ugly",
+    "id": "M01",
+    "links": {
+      "Left": "START",
+      "Top": null,
+      "Right": "B01",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M02" : {
+    "name": "They're everywhere",
+    "id": "M02",
+    "links": {
+      "Left": null,
+      "Top": "START",
+      "Right": "L01",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M03" : {
+    "name": "You won't escape",
+    "id": "M03",
+    "links": {
+      "Left": null,
+      "Top": "B01",
+      "Right": null,
+      "Bottom": "L02"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M04" : {
+    "name": "Feeling bored yet ?",
+    "id": "M04",
+    "links": {
+      "Left": "L03",
+      "Top": null,
+      "Right": null,
+      "Bottom": "E02"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M05" : {
+    "name": "It's gonna be okay",
+    "id": "M05",
+    "links": {
+      "Left": null,
+      "Top": "E05",
+      "Right": null,
+      "Bottom": "E03"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M06" : {
+    "name": "",
+    "id": "M06",
+    "links": {
+      "Left": null,
+      "Top": "E04",
+      "Right": "L04",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M07" : {
+    "name": "",
+    "id": "M07",
+    "links": {
+      "Left": "AR03",
+      "Top": "START",
+      "Right": "B02",
+      "Bottom": "M08"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M08" : {
+    "name": "Here we go again",
+    "id": "M08",
+    "links": {
+      "Left": null,
+      "Top": "M07",
+      "Right": "E07",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M09" : {
+    "name": "",
+    "id": "M09",
+    "links": {
+      "Left": null,
+      "Top": "E07",
+      "Right": "B03",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "M10" : {
+    "name": "",
+    "id": "M10",
+    "links": {
+      "Left": "B02",
+      "Top": "E08",
+      "Right": "BOSS",
+      "Bottom": "E09"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E01" : {
+    "name": "A strange encounter",
+    "id": "E01",
+    "links": {
+      "Left": null,
+      "Top": "L01",
+      "Right": "L02",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E02" : {
+    "name": "",
+    "id": "E02",
+    "links": {
+      "Left": "AR02",
+      "Top": "M04",
+      "Right": null,
+      "Bottom": "B01"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E03" : {
+    "name": "",
+    "id": "E03",
+    "links": {
+      "Left": "B01",
+      "Top": "M05",
+      "Right": "M07",
+      "Bottom": "E04"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E04" : {
+    "name": "A strange encounter",
+    "id": "E04",
+    "links": {
+      "Left": null,
+      "Top": "E03",
+      "Right": null,
+      "Bottom": "M06"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E05" : {
+    "name": "",
+    "id": "E05",
+    "links": {
+      "Left": null,
+      "Top": null,
+      "Right": "L05",
+      "Bottom": "M05"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E06" : {
+    "name": "A strange encounter",
+    "id": "E06",
+    "links": {
+      "Left": null,
+      "Top": "AR04",
+      "Right": null,
+      "Bottom": "B02"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+    "E07" : {
+    "name": "",
+    "id": "E07",
+    "links": {
+      "Left": "M08",
+      "Top": null,
+      "Right": null,
+      "Bottom": "M09"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E08" : {
+    "name": "",
+    "id": "E08",
+    "links": {
+      "Left": null,
+      "Top": "L06",
+      "Right": "AR06",
+      "Bottom": "M10"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "E09" : {
+    "name": "",
+    "id": "E09",
+    "links": {
+      "Left": null,
+      "Top": "M10",
+      "Right": "AR05",
+      "Bottom": "B03"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "L01" : {
+    "name": "",
+    "id": "L01",
+    "links": {
+      "Left": "M02",
+      "Top": null,
+      "Right": null,
+      "Bottom": "E01"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "L02" : {
+    "name": "",
+    "id": "L02",
+    "links": {
+      "Left": "E01",
+      "Top": "M03",
+      "Right": null,
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "L03" : {
+    "name": "",
+    "id": "L03",
+    "links": {
+      "Left": null,
+      "Top": null,
+      "Right": "M04",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "L04" : {
+    "name": "",
+    "id": "L04",
+    "links": {
+      "Left": "M06",
+      "Top": null,
+      "Right": null,
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "L05" : {
+    "name": "",
+    "id": "L05",
+    "links": {
+      "Left": "E05",
+      "Top": null,
+      "Right": "AR04",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "L06" : {
+    "name": "",
+    "id": "L06",
+    "links": {
+      "Left": null,
+      "Top": null,
+      "Right": null,
+      "Bottom": "E08"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "B01" : {
+    "name": "",
+    "id": "B01",
+    "links": {
+      "Left": "M01",
+      "Top": "E02",
+      "Right": "E03",
+      "Bottom": "M03"
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "B02" : {
+    "name": "",
+    "id": "B02",
+    "links": {
+      "Left": "M07",
+      "Top": "E06",
+      "Right": "M10",
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  },
+  "B03" : {
+    "name": "",
+    "id": "B03",
+    "links": {
+      "Left": "M09",
+      "Top": "E09",
+      "Right": null,
+      "Bottom": null
+    },
+    "content": {
+      "loot": [],
+      "entities": [],
+      "event": []
+    }
+  }
+}

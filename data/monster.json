@@ -1,0 +1,29 @@
+{
+    "Monster_1": {
+        "level": 5,
+        "name": "slime",
+        "max_hp": 80,
+        "stats": {
+            "str": 6,
+            "dex": 4
+        }
+    },
+    "Monster_2": {
+        "level": 11,
+        "name": "Bing chilling slime",
+        "max_hp": 111,
+        "stats": {
+            "str": 11,
+            "dex": 11
+        }
+    },
+    "Monster_3": {
+        "level": 8,
+        "name": "Wolf",
+        "max_hp": 80,
+        "stats": {
+            "str": 6,
+            "dex": 4
+        }
+    }
+}

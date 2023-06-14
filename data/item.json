@@ -1,0 +1,144 @@
+{
+  "potion de soin":{
+    "item_id": "1",
+    "name": "potion de soin",
+    "description": "Potion réaliser par un herboriste, vous rends 25 hp",
+    "effect": "user.current_hp += 25\nif user.current_hp > user.max_hp:\n user.current_hp = user.max_hp\n"
+  },
+  "potion de soin +":{
+    "item_id": "2",
+    "name": "potion de soin +",
+    "description": "Potion issu du sang des sirènes, vous rends 50 hp",
+    "effect": "user.current_hp += 50\nif user.current_hp > user.max_hp:\n user.current_hp = user.max_hp\n"
+  },
+  "potion de mana":{
+    "item_id": "3",
+    "name": "potion de mana",
+    "description": "Potion crée par un certain alchimiste",
+    "effect": "user.current_mana += 25\nif user.current_mana > user.max_mana:\n user.current_mana = user.max_mana\n"
+  },
+  "potion de mana +":{
+    "item_id": "4",
+    "name": "potion de mana +",
+    "description": "La mana provient d'une météorite",
+    "effect": "user.current_mana += 50\nif user.current_mana > user.max_mana:\n user.current_mana = user.max_mana\n"
+  },
+  "fiole de puissance":{
+    "item_id": "5",
+    "name": "fiole de puissance",
+    "description": "booster votre force",
+    "effect": "*1.2"
+  },
+  "fiole de puissance +":{
+    "item_id": "6",
+    "name": "fiole de puissance +",
+    "description": "augmente de beaucoup votre force",
+    "effect": "*1.5"
+  },
+  "fiole de resistance":{
+    "item_id": "7",
+    "name": "fiole de resistance",
+    "description": "booster votre resistance",
+    "effect": "*1.2"
+  },
+  "fiole de resistance +":{
+    "item_id": "8",
+    "name": "fiole de resistance +",
+    "description": "augmente de beaucoup votre resistance",
+    "effect": "*1.5"
+  },
+  "pilule de puissance":{
+    "item_id": "9",
+    "name": "pilule de puissance",
+    "description": "augmente votre stat d'attaque",
+    "effect": "2"
+  },
+  "pilule de puissance +":{
+    "item_id": "10",
+    "name": "pilule de puissance +",
+    "description": "augmente grandement votre stat d'attaque",
+    "effect": "3"
+  },
+  "pilule de resistance":{
+    "item_id": "11",
+    "name": "pilule de resistance",
+    "description": "augmente votre stat de resistance",
+    "effect": "2"
+  },
+  "pilule de resistance +":{
+    "item_id": "12",
+    "name": "pilule de resistance +",
+    "description": "augmente grandement votre stat de resistance",
+    "effect": "3"
+  },
+  "épée basique":{
+    "item_id": "13",
+    "name": "épée basique",
+    "type": "physical",
+    "stats": {
+      "str": 2,
+      "dxt": 2,
+      "int": 0
+    },
+    "equip_effects": "",
+    "unequip_effects": ""
+  },
+  "lame de fer": {
+    "item_id": "14",
+    "name": "lame de fer",
+    "attack_type": "physical",
+    "stats": {
+      "str": 3,
+      "dxt": 3,
+      "int": 0
+    },
+    "equip_effects": "",
+    "unequip_effects": ""
+  },
+  "baton de bois": {
+    "item_id": "15",
+    "name": "baton de bois",
+    "attack_type": "magical",
+    "stats": {
+      "str": 2,
+      "dxt": 0,
+      "int": 5
+    },
+    "equip_effects": "",
+    "unequip_effects": ""
+  },
+  "baton de bois": {
+    "item_id": "16",
+    "name": "baton de sorcier",
+    "attack_type": "magical",
+    "stats": {
+      "str": 5,
+      "dxt": 2,
+      "int": 8
+    },
+    "equip_effects": "",
+    "unequip_effects": ""
+  },
+  "maille de fer": {
+    "item_id": "17",
+    "name": "maille de fer",
+    "stats": {
+      "str": 4,
+      "dxt": 10,
+      "int": 0
+    },
+    "equip_effects": "",
+    "unequip_effects": ""
+  },
+  "manteau de sorcier": {
+    "item_id": "18",
+    "name": "maille de fer",
+    "stats": {
+      "str": 2,
+      "dxt": 4,
+      "int": 10
+    },
+    "equip_effects": "",
+    "unequip_effects": ""
+  }
+}
